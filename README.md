@@ -14,7 +14,7 @@
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
     
-This program was written for COMP10002 (Unimelb) subject.
+This program was written for COMP10002 subject.
 
 This program, given a text file of arbitrary size,
 searches for the line which resembles the search term
