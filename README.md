@@ -33,9 +33,9 @@ has over a binary "yes this is a match" or "no it is not"
 algorithm.
 
 In short, this program will check all possible consecutive subsets of 
-the lineagainst all possible subsets of our query. 
+the line against all possible subsets of our query. 
 
-My goal with this program is to implement more complexity to get_score(), 
+My goal with this program is to implement more complexity to `get_score()`, 
 allowing us to check a variable number of parts of the line 
 for subsets of our query.
 
