@@ -1,20 +1,16 @@
 # Search Term Ranker
 
-    Copyright (C) 2016 Lachlan Grant
-    This program is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
+History
+=
 
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
+- This is an old program, originally authored in 2016.
 
-    You should have received a copy of the GNU General Public License
-    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+- It is here, at this stage, for historical purposes only.
+
+Notes
+=
     
-This program was written for COMP10002 subject.
+This program was written for [COMP10002](https://handbook.unimelb.edu.au/subjects/comp10002/).
 
 This program, given a text file of arbitrary size,
 searches for the line which resembles the search term
@@ -35,7 +31,26 @@ algorithm.
 In short, this program will check all possible consecutive subsets of 
 the line against all possible subsets of our query. 
 
-My goal with this program is to implement more complexity to `get_score()`, 
-allowing us to check a variable number of parts of the line 
+Future
+=
+My goal with this program is to implement more complexity to `get_score()`.
+
+Allowing us to check a variable number of parts of the line 
 for subsets of our query.
 
+License
+=
+    Copyright (C) 2016 Lachlan Grant
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+    
