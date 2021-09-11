@@ -1,4 +1,4 @@
-# Search Term Ranker
+# SearchTermAlgorithm
 
 History
 =
